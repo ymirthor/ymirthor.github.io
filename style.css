@@ -21,6 +21,7 @@ div#productname{
 	height: var(--header-height);
 	background-color: var(--background-color);
    position:sticky;
+   position: -webkit-sticky;
    top:0;
    right:0;
 	margin-bottom: 50px;
