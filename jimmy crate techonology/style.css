@@ -1,0 +1,110 @@
+body{
+	--main-color: #ff5555;
+	--background-color: #1c1c1c;
+	--header-height: 140px;
+
+}
+html, body{
+	height: 100%;
+	margin: 0;
+	border-style: none;
+	font-size: 17px;
+}
+
+.element {
+  all: none;
+}
+div#menusticky{
+	height:99999%;
+}
+div#productname{
+	height: var(--header-height);
+	background-color: var(--background-color);
+   position:sticky;
+   top:0;
+   right:0;
+	margin-bottom: 50px;
+	z-index: 1;
+}
+div#productname h1{
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+	line-height: var(--header-height);
+	font-size: calc(var(--header-height) - 50px);
+	color: white;
+}
+div#wrapper{
+	width: 86%;
+	margin: auto;
+	min-height: 100%
+}
+div#product{
+	height: 700px;
+	background-color: var(--background-color);
+	margin-bottom: 50px;
+}
+div#button{
+	float: right;
+	padding: 10px;
+	background-color: var(--background-color);
+}
+div#button a{
+	color: white;
+	font-size: 70px;
+}
+.shadowright{
+	box-shadow: 10px 10px var(--main-color);
+}
+.shadowleft{
+	box-shadow: -10px 10px var(--main-color);
+}
+div#addtocart{
+	margin-bottom: 50px;
+	display: inline-block;
+	width:100%;
+}
+div#descriptionsection-box{
+	background: linear-gradient(0deg, var(--background-color) 90%, rgba(0,0,0,0) 10%);
+	padding: 0 30px 30px 0;
+	position: relative;
+    left: -9%;
+	width: 75%;
+	margin-bottom: 50px;
+}
+div#descriptionsection-box img{
+	margin-left: 12%;
+	margin-bottom: 30px;
+	width: 50%;
+	length: auto;
+}
+div#description{
+	padding-left: 12%;
+	font-size: 32px;
+	color: white;
+}
+div#videosection-box{
+	float: right;
+	background: linear-gradient(0deg, var(--background-color) 90%, rgba(0,0,0,0) 10%);
+	padding: 0 30px 30px 0;
+	position: relative;
+    left: 9%;
+	position:relative;
+	width: 75%;
+	margin-bottom: 50px;
+}
+div#videosection-box img{
+	float: right;
+	margin-right: 9%;
+	margin-bottom: 30px;
+	width: 75%;
+	length: auto;
+}
+div#videotext{
+	float: right;
+	padding-right: 9%;
+	font-size: 32px;
+	color: white;
+	text-align: center;
+	width: 75%;
+}
