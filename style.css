@@ -1,6 +1,6 @@
 body{
 	--main-color: #ff5555;
-	--background-image: url("img/test.png");
+	--background-image: url("img/grid-awesome.png");
 	--background-color: #1c1c1c;
 	--header-height: 140px;
 	--percentage-sides: 8.16%;
@@ -13,6 +13,7 @@ html, body{
 	font-size: 17px;
 	font-weight: 100;
 	background-image: var(--background-image);
+	background-attachment: fixed;
 }
 a{
 	font-family: 'Roboto', sans-serif;
