@@ -52,7 +52,7 @@ div#button{
 }
 div#button a{
 	color: white;
-	font-size: 70px;
+	font-size: 100px;
 }
 .shadowright{
 	box-shadow: 10px 10px var(--main-color);
@@ -70,7 +70,7 @@ div#descriptionsection-box{
 	padding: 0 30px 30px 0;
 	position: relative;
     left: -9%;
-	width: 75%;
+	width: 85%;
 	margin-bottom: 50px;
 }
 div#descriptionsection-box img{
@@ -81,7 +81,7 @@ div#descriptionsection-box img{
 }
 div#description{
 	padding-left: 12%;
-	font-size: 32px;
+	font-size: 40px;
 	color: white;
 }
 div#videosection-box{
