@@ -37,17 +37,20 @@ div#productname{
 	width: 100%;
 	margin-bottom: 50px;
 	z-index: 1;
+	white-space: nowrap;
 }
 div#productname h1{
 	margin: 0;
 	text-align: center;
-	font-size: calc(var(--header-height) - 60px);
+	vertical-align: middle;
+	line-height: var(--header-height);
+	font-size: calc(var(--header-height) - 70px);
 	letter-spacing: 5px;
 	text-shadow: -5px 0px var(--main-color);
 	color: white;
 }
 .bigger { 
-	font-size: 140%; 
+	font-size: 130%; 
 }
 div#wrapper{
 	width: 86%;
